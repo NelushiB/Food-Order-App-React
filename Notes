@@ -1,9 +1,10 @@
 /* 
-1. Start with adding the header 
-2. Create Meals.jsx
-3. Create fetch request --> il metodo GET, essendo di default, non serve "dichiararlo". Il nome che va dopo il localhost, va cercato nell'app js su backend
-4. Create MealItem.jsx
+1. Creazione componente Header.jsx
+2. Creazione componente Meals.jsx
+3. Creazione fetch request --> il metodo GET, essendo di default, non serve "dichiararlo". Il nome che va dopo il localhost, va cercato nell'app js su backend
+4. Creazione componente MealItem.jsx
     4.a aggiungere il percorso dell'image, aggiungendo anche l'url
     4.b creazione file formatting.js per formattare il prezzo in valuta dollari 
 5. Creazione sottocartella ui per gestire i componenti condivisi tipo button.jsx
+6. Creazione cartella store per gestire il context del carrello
 */
