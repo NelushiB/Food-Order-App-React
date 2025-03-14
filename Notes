@@ -1,0 +1,9 @@
+/* 
+1. Start with adding the header 
+2. Create Meals.jsx
+3. Create fetch request --> il metodo GET, essendo di default, non serve "dichiararlo". Il nome che va dopo il localhost, va cercato nell'app js su backend
+4. Create MealItem.jsx
+    4.a aggiungere il percorso dell'image, aggiungendo anche l'url
+    4.b creazione file formatting.js per formattare il prezzo in valuta dollari 
+5. Creazione sottocartella ui per gestire i componenti condivisi tipo button.jsx
+*/
