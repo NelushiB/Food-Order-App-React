@@ -1,13 +1,9 @@
-import { useCallback, useEffect, useState } from "react";
 import Header from "./components/Header";
-import { fetchAvailableMeals } from "./util/https";
 import Meals from "./components/Meals";
+import { CartContextProvider } from "./store/CartContext";
 
 function App() {
-  const [availableMeals, setAvailableMeals] = useState([]);
-  const [error, setError] = useState([]);
-
-  /* const fetchMeals = useCallback(async() => {
+ /* const fetchMeals = useCallback(async() => {
     try {
       const meals = await fetchAvailableMeals();
       setAvailableMeals(meals);
@@ -20,30 +16,11 @@ function App() {
     fetchMeals();
   }, [fetchMeals]) */
 
-  // oppure, per evitare un ulteriore lavoro non necessario
-  
-  
-  useEffect(() => {
-    const fetchMeals = async() => {
-      try {
-        const meals = await fetchAvailableMeals();
-        setAvailableMeals(meals);
-      } catch (error) {
-        setError({ message: error.message || 'Failed to fetch available meals'})
-      }
-    }
-
-    fetchMeals();
-  }, [])
-  
-  
   return (
-    <>
+    <CartContextProvider>
       <Header />
-      <Meals 
-        meals={availableMeals}
-      />
-    </>
+      <Meals  />
+    </CartContextProvider>
   );
 }
 
