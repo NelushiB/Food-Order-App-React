@@ -7,4 +7,8 @@
     4.b creazione file formatting.js per formattare il prezzo in valuta dollari 
 5. Creazione sottocartella ui per gestire i componenti condivisi tipo button.jsx
 6. Creazione cartella store per gestire il context del carrello
+    6.a Gestione delle azioni aggiunta e rimozione elemento dal carrello tramite useReducer
+8. Creazione funzione per aggiungere elementi nel carrello
+9. Gestione del conteggio degli elementi nel carrello
+10. Creazione di un modal generico riutilizzabile
 */
