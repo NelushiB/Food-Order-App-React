@@ -14,5 +14,8 @@
     10.a Gestione del modal tramite createPortal e useRef
 11. Creazione del componente Cart
 12. Gestione dell'apertura e chiusura di cart e checkout modal tramite context
-13. Creazione del componente CartItem
+13. Creazione del componente CartItem e gestione delle varie props e onClick
+14. Creazione del componente checkout e input da riutilizzare nel checkout
+    14.a Gestione dell'invio del form
+15. Gestione della chiusura del modal tramite tasto esc
 */
