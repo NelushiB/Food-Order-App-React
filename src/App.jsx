@@ -1,9 +1,11 @@
+import Cart from "./components/Cart";
 import Header from "./components/Header";
 import Meals from "./components/Meals";
 import { CartContextProvider } from "./store/CartContext";
+import { UserProgressContextProvider } from "./store/UserProgressContext";
 
 function App() {
- /* const fetchMeals = useCallback(async() => {
+  /* const fetchMeals = useCallback(async() => {
     try {
       const meals = await fetchAvailableMeals();
       setAvailableMeals(meals);
@@ -17,10 +19,13 @@ function App() {
   }, [fetchMeals]) */
 
   return (
-    <CartContextProvider>
-      <Header />
-      <Meals  />
-    </CartContextProvider>
+    <UserProgressContextProvider>
+      <CartContextProvider>
+        <Header />
+        <Meals />
+        <Cart />
+      </CartContextProvider>
+    </UserProgressContextProvider>
   );
 }
 
