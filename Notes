@@ -11,4 +11,8 @@
 8. Creazione funzione per aggiungere elementi nel carrello
 9. Gestione del conteggio degli elementi nel carrello
 10. Creazione di un modal generico riutilizzabile
+    10.a Gestione del modal tramite createPortal e useRef
+11. Creazione del componente Cart
+12. Gestione dell'apertura e chiusura di cart e checkout modal tramite context
+13. Creazione del componente CartItem
 */
