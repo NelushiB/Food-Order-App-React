@@ -18,4 +18,8 @@
 14. Creazione del componente checkout e input da riutilizzare nel checkout
     14.a Gestione dell'invio del form
 15. Gestione della chiusura del modal tramite tasto esc
+16. Gestione delle richieste HTTP tramite un hook customizzato
+17. Utilizzo del hook useHttp per gestire le richieste su meals e checkout
+18. Gestione della fase finale del checkout
+
 */
